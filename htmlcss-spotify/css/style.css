@@ -1,0 +1,44 @@
+.black{
+  background-color:black;
+  padding:10px 5px;
+  height:100vh;
+}
+
+.black,
+.black > ul > li > a,
+.container-fluid h2{
+  color:white;
+}
+
+.brand{
+  height:100px;
+  line-height: 100px;
+}
+
+.logo{
+  font-size: 30px;
+}
+.wdt-40{
+  width:70%;
+  margin:0 auto;
+}
+.black > ul > li {
+  list-style-type:none;
+}
+.special{
+  background: linear-gradient(#1e1b00,#4f2e00);
+  height:100vh;
+}
+
+.container-flex{
+  display:flex;
+  width:100%;
+  flex-wrap:wrap;
+  border:1px solid black;
+
+}
+
+.container-flex > .item > img{
+    width:150px;
+    height:150px;
+}

@@ -25,9 +25,16 @@
 .black > ul > li {
   list-style-type:none;
 }
+.fixed{
+  position:fixed;
+  left:0%;
+  top:0%;
+
+}
 .special{
   background: linear-gradient(#1e1b00,#4f2e00);
-  height:100vh;
+  
+
 }
 
 .container-flex{
@@ -37,8 +44,18 @@
   border:1px solid black;
 
 }
+.item{
+  width:230px;
+  height:auto;
+  padding-right:20px;
+
+}
 
 .container-flex > .item > img{
-    width:150px;
-    height:150px;
+    width:100%;
+    height:auto;
+}
+
+.grey{
+  background-color:#cecece;
 }
